@@ -1,0 +1,23 @@
+GATHER ALL THE TRAFFICS OF THE WEBSITE
+
+1. Open burp suite app in your machine
+2. Set Firefox browser for burping
+3. Set the proxy settings to manual in the firefox
+4. HTTP proxy: 127.0.0.1  Port: 8080
+5. Use this proxy for all.
+
+6. https://burp/ (go to this link and allow everything- for Once)
+7. Click on CA Certificate and save the file
+8. Go to firefox settings again and go to on the security panel
+9. Go to View Certificates
+10. Import the downloaded file
+11. Check the two unchecked mark
+12. Firefox Setup done
+
+13. Now Open a website
+14. go to BurpSuite app.
+15. Go to Proxy, Intruder, Targets anywhere you want.
+
+--this is a glimpse of a tool for finding info of a website--
+
+---ALWAYS RESTORE THE BROWSER PROXY FOR USING THAT BROWSER---
